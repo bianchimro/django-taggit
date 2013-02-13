@@ -38,8 +38,7 @@ development you can contact the
 
 this fork
 =========
-
-This fork handle a couple of options in settings.py:
+This fork handles a couple of options in settings.py:
 
 * TAGGIT_FORCE_LOWERCASE (Boolean): if set to True tags will be converted to lowercase
 * TAGGIT_ALLOWED_TAGS (a list of strings): if set, taggit will allow only tags in this list
