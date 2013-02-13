@@ -33,3 +33,14 @@ Tags will show up for you automatically in forms and the admin.
 For more info checkout out the documentation.  And for questions about usage or
 development you can contact the
 `mailinglist <http://groups.google.com/group/django-taggit>`_.
+
+
+
+this fork
+=========
+
+This fork handle a couple of options in settings.py:
+
+* TAGGIT_FORCE_LOWERCASE (Boolean): if set to True tags will be converted to lowercase
+* TAGGIT_ALLOWED_TAGS (a list of strings): if set, taggit will allow only tags in this list
+  (comparison is case-insensitive)s
